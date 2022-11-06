@@ -15,11 +15,24 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
 }
+.logo {
+position: absolute;
+height: 32px;
+width: 228px;
+margin-top: 30px;
+margin-left: 64px;
+}
+
+.logo_place_header{
+
+}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  size: 568px;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
