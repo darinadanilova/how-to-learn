@@ -175,9 +175,9 @@ left: 64px;
   .section-title{
     display: flex;
     flex-direction: row;
-    align-self: center;
+    justify-content: center;
     width: 60%;
-    bottom: 20px;
+    margin-bottom: 20px;
     line-height: 1.15;
     font-size: 60px;
     font-weight: 600;
@@ -186,7 +186,7 @@ left: 64px;
   .section-subtitle{
     display: flex;
     flex-direction: row;
-    align-self: center;
+    justify-content: center;
     width: 60%;
     line-height: 34px;
     font-size: 24px;
@@ -199,8 +199,8 @@ left: 64px;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: space-between;
-  align-content: baseline
-  width: 1100;
+  align-content: baseline;
+  width: 1100px;
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -208,17 +208,19 @@ left: 64px;
 
 }
 .table-cell{
+  align-content: baseline;
+  justify-content: flex-start;
   width: 250px;
-  top: 60px;
-  bottom: 60px;
+  margin-top: 60px;
   
 }
 
 .table-heading{
-  bottom: 20px;
+  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  margin: 0;
 }
 
 .table-text{
@@ -227,151 +229,12 @@ left: 64px;
   font-weight: normal;
 }
 
-.table-cell_1{
-  width: 250px;
-  top: 60px;
-  bottom: 60px;
-}
-
-.table-heading_1{
-  bottom: 20px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table-text_1{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
 .table-text_down{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
   margin-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table-cell_2{
-  width: 250px;
-  top: 60px;
-  bottom: 60px; 
-}
-
-.table-heading_2{
-  bottom: 20px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table-text_2{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table-cell_3{
-  width: 250px;
-  top: 60px;
-  bottom: 60px;
-}
-
-.table-heading_3{
-  bottom: 20px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table-text_3{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table-cell_4{
-  width: 250px;
-  top: 60px;
-  bottom: 60px;
-}
-
-.table-heading_4{
-  bottom: 20px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table-text_4{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table-text_4_down{
-  margin-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table-cell_5{
-  width: 250px;
-  top: 60px;
-  bottom: 60px;
-}
-
-.table-heading_5{
-  bottom: 20px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table-text_5{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table-cell_6{
-  width: 250px;
-  top: 60px;
-  bottom: 60px; 
-}
-
-.table-heading_6{
-  bottom: 20px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table-text_6{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table-cell_7{
-  width: 250px;
-  top: 60px;
-  bottom: 60px;
-}
-
-.table-heading_7{
-  bottom: 20px; 
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table-text_7{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+  margin-bottom: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
