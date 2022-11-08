@@ -9,9 +9,9 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*div {
+div {
   border: 1px solid red; 
-}*/
+
 
 .header {
   position: relative;
@@ -61,7 +61,7 @@ left: 64px;
 }
 
 .logo_place_header {
- xcvcxmv nxkjnkzjnkjnk
+
 }
 
 .header__main-illustration {
@@ -91,6 +91,7 @@ left: 64px;
 
 .description {
   display: flex;
+  align-items: center;
   /*border: 4px dashed green;*/
 }
 
@@ -102,9 +103,8 @@ left: 64px;
   min-height: auto;
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
   align-items: center;
+  width: 80%;
 }
 
 .two-columns_brief {
@@ -154,7 +154,7 @@ left: 64px;
 .two-columns_paragraph2 {
   align-self: center;
   width: 80%;
-  min-width: 784p;
+  min-width: 784px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
