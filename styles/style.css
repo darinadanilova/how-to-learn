@@ -11,7 +11,7 @@
 
 div {
   border: 1px solid red; 
-
+}
 
 .header {
   position: relative;
@@ -167,6 +167,213 @@ left: 64px;
   font-weight: 600;
   }
   
+  .digits {
+    display: flex;
+    align-items: center;
+  }
+   
+  .section-title{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 60%;
+    bottom: 20px;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  .section-subtitle{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 60%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+.table{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-content: baseline
+  width: 1100;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.table-cell{
+  width: 250px;
+  top: 60px;
+  bottom: 60px;
+  
+}
+
+.table-heading{
+  bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-cell_1{
+  width: 250px;
+  top: 60px;
+  bottom: 60px;
+}
+
+.table-heading_1{
+  bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-text_1{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-text_down{
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-cell_2{
+  width: 250px;
+  top: 60px;
+  bottom: 60px; 
+}
+
+.table-heading_2{
+  bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-text_2{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-cell_3{
+  width: 250px;
+  top: 60px;
+  bottom: 60px;
+}
+
+.table-heading_3{
+  bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-text_3{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-cell_4{
+  width: 250px;
+  top: 60px;
+  bottom: 60px;
+}
+
+.table-heading_4{
+  bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-text_4{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-text_4_down{
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-cell_5{
+  width: 250px;
+  top: 60px;
+  bottom: 60px;
+}
+
+.table-heading_5{
+  bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-text_5{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-cell_6{
+  width: 250px;
+  top: 60px;
+  bottom: 60px; 
+}
+
+.table-heading_6{
+  bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-text_6{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-cell_7{
+  width: 250px;
+  top: 60px;
+  bottom: 60px;
+}
+
+.table-heading_7{
+  bottom: 20px; 
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-text_7{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
