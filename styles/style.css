@@ -410,6 +410,7 @@
   justify-content: flex-start;
   width: 228px;
   height: 32px;
+  margin: 0;
 }
 
 .footer__author{
