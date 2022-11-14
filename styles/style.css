@@ -52,7 +52,7 @@
 
 .header__subtitle {
   position: absolute;
-  width: 388px;
+  max-width: 388px;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
@@ -113,7 +113,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  width: 175px;
+  max-width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -124,7 +124,7 @@
   display: flex;
   flex-direction: column;
   align-self: center;
-  width: 80%;
+  max-width: 80%;
   min-width: 784px;
   line-height: 34px;
   font-size: 24px;
@@ -142,14 +142,12 @@ margin: 0px;
 
 .two-columns__paragraph:nth-last-child(2) {
   align-self: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin: 0px;
 }
 
 .two-columns__span-accent {
-  line-height: 34px;
-  font-size: 24px;
   font-weight: 600;
 }
   
@@ -173,8 +171,8 @@ margin: 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 60%;
-  margin-bottom: 20px;
+  max-width: 60%;
+  padding-bottom: 20px;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -185,7 +183,7 @@ margin: 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 60%;
+  max-width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -249,8 +247,8 @@ margin: 0px;
 .feynman__title{
   align-self: center;
   text-align: center;
-  width: 648px;
-  margin-top: 100px;
+  max-width: 648px;
+  padding-top: 100px;
   z-index: 1;
   line-height: 1.15;
   font-size: 120px;
@@ -261,12 +259,12 @@ margin: 0px;
 .feynman__subtitle{
   align-self: center;
   text-align: center;
-  padding: 0;
-  margin-top: 70px;
+  padding-top: 70px;
   z-index: 1;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin: 0px;
 }
 
 .feynman__link{
@@ -305,7 +303,7 @@ margin: 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 60%;
+  max-width: 60%;
   margin-top: 90px;
   line-height: 1.15;
   font-size: 60px;
@@ -317,7 +315,7 @@ margin: 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 60%;
+  max-width: 60%;
   margin-top: 20px;
   line-height: 34px;
   font-size: 24px;
