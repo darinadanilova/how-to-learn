@@ -1,0 +1,12 @@
+.footer__social-icon {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  justify-content: space-between;
+  align-items: center;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}

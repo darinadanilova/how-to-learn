@@ -1,0 +1,11 @@
+.footer__column-link {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer__column-link:hover {
+    transition-property: color;
+    opacity: 0.5;
+  }
