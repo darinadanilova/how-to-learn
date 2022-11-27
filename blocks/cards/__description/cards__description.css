@@ -1,0 +1,17 @@
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 60px;
+    margin: 0px;
+  }
+  
+  
+  .cards__description:nth-last-child(4) {
+    padding-bottom: 0px;
+  }
+  
+  .cards__description:last-child {
+    padding-bottom: 0px;
+  } 
+  

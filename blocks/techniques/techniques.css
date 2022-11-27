@@ -1,0 +1,14 @@
+.techniques {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: #000000;
+    margin: 0px;
+    min-width: 80%;
+    padding-left: auto;
+    padding-right: auto;
+  }

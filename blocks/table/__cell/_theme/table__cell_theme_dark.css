@@ -1,0 +1,9 @@
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+    align-content: baseline;
+    justify-content: flex-start;
+    z-index: 1;
+    width: 200px;
+    padding-top: 80px;
+    margin: 0px;
+  }

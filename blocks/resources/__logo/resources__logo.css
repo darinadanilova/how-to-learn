@@ -1,0 +1,10 @@
+.resources__logo {
+    min-width: 270px;
+    max-height: 38px;
+    margin: 0px;
+  }
+
+  .resources__logo:hover {
+    transition-property: color;
+    opacity: 0.5;
+  }

@@ -1,0 +1,20 @@
+.two-columns__paragraph {
+    margin: 0px;
+  }
+
+  .two-columns__paragraph:first-child {
+    align-self: center;
+    margin: 0px; 
+  }
+  
+  .two-columns__paragraph:nth-last-child(2) {
+    align-self: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
+  }
+
+  .two-columns__paragraph:last-child {
+    align-self: center;
+    margin: 0px;
+  }

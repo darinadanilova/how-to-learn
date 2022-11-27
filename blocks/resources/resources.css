@@ -1,0 +1,11 @@
+.resources {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    color: #000000;
+    margin: 0px;
+  }
+
