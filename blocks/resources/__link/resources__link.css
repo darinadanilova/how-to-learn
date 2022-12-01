@@ -3,4 +3,6 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0px;
+    padding-left: 0px;
+    list-style: none;
   }
