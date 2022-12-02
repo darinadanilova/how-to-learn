@@ -1,5 +1,7 @@
 .header__link {
-    color: #2f80ed;
+  text-decoration: none;
+  color: #2f80ed;
+  z-index: 3;
   }
   
   .header__link:hover {
