@@ -1,8 +1,9 @@
 .footer__column-link {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     color: white;
     text-decoration: none;
+    align-items: center;
   }
   
   .footer__column-link:hover {
